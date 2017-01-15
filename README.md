@@ -1,5 +1,5 @@
 ##View [Demo](https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/)
---
+
 # Group Members 
 * Jennifer St.Germain
 * Anna VanderJagt
