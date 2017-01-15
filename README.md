@@ -1,3 +1,9 @@
+##View [Demo](https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/)
+--
+# Group Members 
+* Jennifer St.Germain
+* Anna VanderJagt
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 ## Creator
