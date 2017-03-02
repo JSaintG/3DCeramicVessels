@@ -4,571 +4,608 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
     <title>3D Modeling & Ceramic Vessels</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Additional fonts for this theme -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <!-- Custom styles for this theme -->
+    <link href="css/agency.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+    </style>
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">3D Modeling & Pre-Columbian Ceramic Vessels</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Sections</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Proposal</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">3D Modeling</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#proposal">Proposal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#portfolio">Methods</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#models">Models</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#metadata">Metadata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#team">Team</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+    </div>
+</nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">3D Modeling &</div>
-                <div class="intro-heading">Pre-Columbian Ceramic Vessels</div>
-                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
-            </div>
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">3D Modeling &</div>
+            <div class="intro-heading">Pre-Columbian Ceramic Vessels</div>
+            <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <span><h3 class="section-subheading text-muted"><p>This site documents a course project in Digital Humanities to 3D model a selection of cultural heritage objects. We tested a variety of methods and tools for creating and processing these 3D models, and discuss the pros and cons of each in the <a href="#portfolio">Methods</a> section of the site. For the purposes of this project, we chose to model a small sample of Mississippian ceramic effigy vessels from the collection of the Glenn A. Black Laboratory of Archaeology at Indiana University.</p>
-                        <p>Effigy vessels are one of the hallmarks of the pre-Columbian Mississippian era (~800CE – 1600CE). Humans, mammals, birds, fish, amphibians, and even mythological creatures were modeled in a variety of styles and vessel forms.
-                        Styles range from including one or more adornments that suggest certain effigy features, such as a head and tail attached to opposite sides of a bowl rim, to entire bottles and bowls formed into the shape of a head or body. Because these vessels often contain asymmetrical features, they can be best appreciated and studied by viewing them from all angles and sides. The creation of digital 3D models allows the public to dynamically view and engage with these artifacts in ways not otherwise possible when presented either in exhibit cases or in static 2D photographs. Researchers can also measure, analyze, and reconstruct these models in new and innovative ways.</p>
-                    </h3></span>
-                </div>
-            </div>
-            <a href="#aboutModal1" class="portfolio-link" data-toggle="modal"><img src="img/portfolio/aboutImg-sm-3.jpg" class="col-md-4" alt=""></a>
-            <a href="#aboutModal2" class="portfolio-link" data-toggle="modal"><img src="img/portfolio/aboutImg-sm.jpg" class="col-md-4" alt=""></a>
-            <a href="#aboutModal3" class="portfolio-link" data-toggle="modal"><img src="img/portfolio/aboutImg-sm-2.jpg" class="col-md-4" alt=""></a>
-        </div>
-    </section>
-
-    <!--ABOUT MODALS-->
-    <div class="portfolio-modal modal fade" id="aboutModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <img src="img/aboutImg-lg-3.jpg" class="col-lg-8 col-lg-offset-2" alt="">
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                
+                
+                <h3 class="section-subheading text-muted"><p>This site documents a course project in Digital Humanities
+                    to 3D model a selection of cultural heritage objects. We tested a variety of methods and tools for
+                    creating and processing these 3D models, and discuss the pros and cons of each in the <a
+                            href="#portfolio">Methods</a> section of the site. For the purposes of this project, we
+                    chose to model a small sample of Mississippian ceramic effigy vessels from the collection of the
+                    Glenn A. Black Laboratory of Archaeology at Indiana University Bloomington.</p>
+                    <p>Effigy vessels are one of the hallmarks of the pre-Columbian Mississippian era (~800CE – 1600CE).
+                        Humans, mammals, birds, fish, amphibians, and even mythological creatures were modeled in a
+                        variety of styles and vessel forms.
+                        Styles range from including one or more adornments that suggest certain effigy features, such as
+                        a head and tail attached to opposite sides of a bowl rim, to entire bottles and bowls formed
+                        into the shape of a head or body. Because these vessels often contain asymmetrical features,
+                        they can be best appreciated and studied by viewing them from all angles and sides. The creation
+                        of digital 3D models allows the public to dynamically view and engage with these artifacts in
+                        ways not otherwise possible when presented either in exhibit cases or in static 2D photographs.
+                        Researchers can also measure, analyze, and reconstruct these models in new and innovative
+                        ways.</p></h3>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="aboutModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <img src="img/aboutImg-lg.jpg" class="col-lg-8 col-lg-offset-2" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="aboutModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <img src="img/aboutImg-lg-2.jpg" class="col-lg-8 col-lg-offset-2" alt="">
-            </div>
-        </div>
-    </div>
+</section>
 
-    <!-- SECTIONS Section-->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sections</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/model.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Models</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/JenPhoto.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Methods</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Metadata</h4>
-                    </div>
-                </div>
+<!-- Proposal -->
+<section id="proposal" class="bg-faded text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Proposal</h2>
+                </br>
+                </br>
             </div>
         </div>
-    </section>
-
-    <!-- Proposal Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Project Proposal</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-3">
+        <div class="row text-center">
+            <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Goals</h4>
-                    <p class="text-muted">To 3D model a small collection of intact ceramic effigy vessels from the Glenn A. Black Laboratory of Archaeology.<br />To test different modeling techniques, software, and 3D viewers. We will be using photogrammetry as our main data capture method, but we also hope to explore and compare structured light scanning techniques.</p>
-                </div>
-                <div class="col-md-3">
+                <h4 class="service-heading">Goals</h4>
+                <p class="text-muted">To 3D model a small collection of intact ceramic effigy vessels from the Glenn A.
+                    Black Laboratory of Archaeology.
+                    To test different modeling techniques, software, and 3D viewers. We will be using photogrammetry as
+                    our main data capture method, but we will also explore and compare structured light scanning
+                    techniques.</p>
+            </div>
+            <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Resources</h4>
-                    <p class="text-muted">All of the physical models will be ceramic effigy vessels housed at the Glenn A. Black Laboratory of Archaeology on the IU Bloomington campus. Secondary materials in the form of catalog cards and database records will be used to create appropriate metadata for the digital models.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Tools</h4>
-                    <p class="text-muted">We will use DSLR and mirrorless cameras, tripods, Autodesk Remake and ReCap, and Pixologic ZBrush for rendering and editing 3D models.<br />We also hope to use the AVL Go!Scan laser scanner to create one or more additional models to compare this method in terms of processing requirements and results.</p>
-                </div>
-                 <div class="col-md-3">
+                <h4 class="service-heading">Resources</h4>
+                <p class="text-muted">All of the physical models will be ceramic effigy vessels housed at the Glenn A.
+                    Black Laboratory of Archaeology on the IU Bloomington campus. Secondary materials in the form of
+                    catalog cards and database records will be used to create appropriate metadata for the digital
+                    models.</p>
+            </div>
+            <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Consultants</h4>
-                    <p class="text-muted">Model editing – Matt Brennan, SOIC Virtual Heritage program<br />Photogrammetry methods assistance – Gary Motz, Manager of the IU Vertebrate Paleontology Collection.<br />3-D scanning techniques - Jeff Rogers, Principal Project Analyst & Team Lead of the Advanced Visualization Lab.<br />*Ethical considerations – April Sievert, Director of the Glenn A. Black Lab</p>
-                </div>
+                <h4 class="service-heading">Consultants</h4>
+                <p class="text-muted">Model editing – Matt Brennan, SOIC Virtual Heritage program
+                    Photogrammetry methods assistance – Gary Motz, Manager of the IU Vertebrate Paleontology Collection
+                    3-D scanning techniques - Jeff Rogers, Principal Project Analyst & Team Lead of the Advanced
+                    Visualization Lab
+                    Ethical considerations – April Sievert, Director of the Glenn A. Black Lab</p>
+            </div>
+            <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">Tools</h4>
+                <p class="text-muted">We will use DSLR and mirrorless cameras, tripods, Autodesk Remake, ReCap, Agisoft
+                    PhotoScan, and Pixologic ZBrush for rendering and editing 3D models.
+                    We will use the AVL Go!Scan to create one or more additional models to compare this method in terms
+                    of processing requirements and results.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
+
+<!-- Methods -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <!-- Project Details Go Here -->
+                <h2>Methods</h2>
+                <h3 class="section-subheading text-muted"><p>There are a number of methods currently in use for
+                    capturing 3D data as well as a growing number of software programs and techniques for processing and
+                    editing models. Choosing among them involves evaluating data capture and processing time, technician
+                    budgeting, equipment and software costs, and necessary access to processing hardware. The size,
+                    format, material, location, and portability of objects also need to be considered. 3D projects
+                    should start with specific requirements in mind including the intended goals or research questions
+                    that may be addressed with the final product. Will the models need to represent fine detail and be
+                    rendered as accurately at possible for scientific measurement and analysis? Or are they intended
+                    mainly for public exhibition or educational purposes?</p>
+                    <p class="item-intro text-muted">For this project, we employed two methods of data capture:
+                        photogrammetry and structured light scanning. We will discuss these approaches and highlight the
+                        strengths and limitations of both. We will also discuss differences in the rendering and editing
+                        software available for these methods.</p></h3>
+
+            </div>
+            <div class="col-lg-12 text-center">
+                <h3>Photogrammetry</h3>
+            </div>
+            <div class="col-lg-12">
+                <p>Multi-image photogrammetry is a 3D modeling technique that uses multiple 2D images of
+                    an object to record, measure, and match corresponding points on an object in order to build a 3D
+                    representation. Typically a series of images that incorporate overlapping views are taken from high,
+                    mid, and low angles of the object in order to record and match as many points on the surface of the
+                    object as possible. Two methods of capturing these images are to rotate the object 360 degrees in
+                    front of a static camera position (except for changes in camera height and angle) or for the camera
+                    to move 360 degrees around the static object. Which method is used will depend on the size and
+                    portability of the object, as well as lighting conditions, space constraints, and modeling software
+                    preferences. All of the models used for this project were small enough for us to experiment with
+                    both techniques.</p>
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Team</h2>
+                    <h5>Moving Camera</h5>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/staticCam-anna.jpg" alt="">
+                    <h5>Static Camera</h5>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/staticObj-jen.jpg" alt="">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jennifer St.Germain</h4>
-                        <p class="text-muted">​​Collections Manager, Glenn A. Black Laboratory of Archaeology <br />
-IDEASc Fellow <br />
-Indiana University, Bloomington</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/msadvtr"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/jennifer.stgermain.7?fref=ts"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/jennifer-st-germain-20342066"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                <div class="col-lg-12">
+                    <p>For the purposes of this project we started out using the AutoDesk ReMake
+                        processing software. ReMake is offered free for students and educators, has some handy built-in
+                        editing features, and can be processed fairly easily and quickly using the cloud-based build
+                        option. However, ReMake has some drawbacks in its sensitivity to image background information.
+                        Of the two techniques for camera position, the moving camera method initially produced cleaner,
+                        more accurate meshes. Images taken while the photographer moves around the object will capture
+                        changing background information. This allows ReMake to match overlapping points and reconstruct
+                        the field of view with more accuracy.</p>
+                    <p>For our testing of the alternative method, where the object is rotated instead, we
+                        used a turntable and professional light-tent. ReMake and other processing programs seem to be
+                        particularly sensitive to the changes, or lack of changes, in the background of an object using
+                        this method. To get the best results, a uniform and monochromatic backdrop needs to be used.
+                        Turntables should also be covered in the same color material, and both should contrast enough
+                        with the color of the object in order for the processing software to distinguish it
+                        properly.</p>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h5>Ethofoam Support</h5>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/ethofoamt.jpg" alt="">
+                </div>
+                <div class="col-lg-12">
+                    <p>Another major consideration in our project was the need to capture images of both
+                        the top and bottom of the vessels in order to view models from any angle. Although we were able
+                        to use pre-made ethofoam supports to invert vessels in a few cases, more asymmetrical artifacts
+                        required the use of custom-made supports (made in-house by GBL staff) to capture data on their
+                        bases.</p>
+                    <p>ReMake is limited in that it cannot process or merge both upright and inverted
+                        model images into one mesh. Two models, top and bottom, must be created separately in ReMake and
+                        then exported into another program, such as Pixologic's ZBrush, to create a merged model. ZBrush
+                        is a powerful digital modeling and sculpting program, but can be prohibitively expensive and has
+                        a steep learning curve. ZBrush also does not offer a point matching feature which makes it
+                        difficult to properly size, rotate, and align two objects into one seamless model.</p>
+                    <div class="col-lg-12 text-center">
+                        <h5>ZBrush</h5>
+                        <img class="img-fluid d-block mx-auto" src="img/portfolio/zBrush.jpg" alt="">
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Anna VanderJagt</h4>
-                        <p class="text-muted"> MLS/MIS Candidate <br />
-Cyberinfrastructure for Digital Humanities Graduate Assistant<br /> Indiana University, Bloomington</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/avanderj"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/anna.vanderjagr"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/annavanderjagt"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                    <p>Agisoft PhotoScan is another software program that can be used to process images
+                        and generate 3D models. This program allows you to import both top and bottom image series and
+                        create a single merged model without having to export files into ZBrush or other editing
+                        software. PhotoScan provides a tool for selecting matching points along the surface of the model
+                        in both series in order to more accurately align the two meshes.</p>
+                    <div class="col-lg-12 text-center">
+                        <h5>PhotoScan</h5>
+                        <img class="img-fluid d-block mx-auto" src="img/portfolio/photoScan.jpg" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                <!--sample text here-->
+                    <div class="col-lg-12">
+                        <p>PhotoScan is more expensive to purchase than ReMake, only offering a 30 day
+                            free trial of its basic version and no long-term free versions for students or educators. It
+                            also requires a lot of processing power and processing time, depending on the quality
+                            desired for the final model. We processed a version of the Turtle Effigy Bottle in PhotoScan
+                            using a lower quality setting based on the time and resources available to us. The result is
+                            adequate for exhibition and educational purposes at this point, but may not be accurate or
+                            photorealistic enough for detailed research and analysis.</p>
+
+                        <div class="col-lg-12 text-center">
+                            <h3>Structured Light Scanning</h3>
+                            
+                            
+                        </div>
+                        <div class="col-lg-12">
+                            <p>With the assistance of Jeff Rogers from IU's Advanced Visualization Laboratory, we also
+                                experimented with structured light scanning.</p>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            
+                            <h5>Go!Scan 50</h5>
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-jeff.jpg" alt="">
+                            
+                        </div>
+                        <div class="col-lg-12>
+                        <p class=" indent
+                        ">
+                        This method captures data through the use of a hand-held scanner that projects light patterns
+                        across the surface of an object. The software recognizes disruptions in the pattern and uses
+                        these to reconstruct exact geometric representations of the object. Color and texture detail are
+                        also captured by a camera sensor built into the scanner. A Creaform GoScan 50 scanner was used
+                        to model 3 objects from our project, which we used to compare with the versions created with
+                        photogrammetry. As in other methods of data capture, the material, lighting, and shape of the
+                        object must be taken into consideration. Highly reflective or translucent materials can create
+                        confusion about the precise location of an object's surface.</p>
+                        <p class="indent">Objects that are too symmetrical are also a problem, as the scanner may not
+                            find enough different points to properly align the image data. Special adhesive point
+                            markers can be placed on the turntable or object in these cases to help identify points.</p>
+                        <p class="indent">As in PhotoScan, the Creaform software that comes with the Go!Scan allows the
+                            user to clean and edit extraneous data and includes a point matching system for aligning
+                            upright and inverted model data.</p>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <h5>Alignment Markers</h5>
+                        <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-dots.jpg" alt="">
+                    </div>
+                     <p>The combined GoScan data capture and processing steps provide for a faster and
+                        more streamlined workflow for 3D modeling. However, structured light scanners are a far more
+                        expensive option than photogrammetry equipment, with the GoScan 50 currently costing around
+                        $25,000. We also felt that the results from our photogrammetry versions were far more accurate
+                        in terms of surface detail and texture. In the Models section of this site, you can compare the
+                        models produced by photogrammetry vs. structured light scanning.</p>
+                    <p>In the future, we hope to re-process the photogrammetry models in PhotoScan using
+                        the higher quality settings, which should improve the detail and photorealistic quality of our
+                        final models even more.</p>
+                    <div class="col-lg-12 text-center">
+                        <h3>Other considerations:</h3>
+                        
+                        
+                        <h5>Image format jpeg vs. RAW/Tiff</h5>
+                    </div>
+                    <p>For this project, we captured our images in RAW, but processed all of our
+                        photogrammetry models using the jpeg file format. Although we would like to experiment with
+                        tiffs converted from RAW in the future, these large files require more powerful processing
+                        hardware and longer processing times. A few experts we spoke with (Jeff Rogers & Matt Brennan)
+                        also indicated that sometimes higher resolution images can also introduce extra noise that may
+                        make it difficult for processing software to stitch images together.</p>
+                    <div class="col-lg-12 text-center">
+                        <h5>Lighting and camera settings</h5>
+                    </div>
+                    <p>Often the most time-consuming element of our photogrammetry process was selecting
+                        the proper lighting and camera settings for image capture. Because we were shooting indoors, we
+                        needed to balance having enough even overhead lighting for reasonable exposure times without
+                        creating glare on the surface of the objects. Larger aperture settings are also required to
+                        capture sufficient depth of field and insure that all surfaces of the object are in focus. As
+                        this also reduces the amount of light available to the camera sensor, we used tripods and cable
+                        shutter releases in order to set longer exposure times. </p>
+                    <div class="col-lg-12 text-center">
+                        
+                        
+                        <h5>See the Metadata section for more documentation on our methods and procedures.</h5>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy;2016</span>
+<!-- Models -->
+<!--Model 1-->
+<section id="models" class="bg-faded">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Models</h2>
+                <p>*Compatibility: Having trouble viewing these models? You can check if your browser is compatible on <a
+                        href="http://get.webgl.org/">http://get.webgl.org/</a></p>
+                <h3 class="text-center">Turtle Effigy</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <img src="img/portfolio/refTurtle.jpg" alt="" width="300" height="306">
+                    <h4>Color-corrected Image</h4>
+                    <p class="text-muted">​​Collections Manager, Glenn A. Black Laboratory of Archaeology <br/>
+                        IDEASc Fellow <br/>
+                        Indiana University, Bloomington</p>
                 </div>
-                <div class="col-md-4">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/7ee441e76122430f8a692e0b6cb4d809/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                        <h4>Photogrammetry Method</h4>
+                    </div>
+
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Agisoft PhotoScan, Pixologic ZBrush</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/54c2be2471ab4355b9905f321e592678/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                        <h4>Structured Light Method</h4>
+                    </div>
+
+                    <p class="text-muted">Hardware: Go!SCAN 50™ by Creaform <br/> Software: 3D Systems (Geomagic® Solutions)</p>
+                </div>
+            </div>
+
+
+
+
+
+            <!--Model 2-->
+            <h3 class="col-lg-12 text-center">Serpent Effigy</h3>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <img src="img/portfolio/refSerpent.jpg" alt="" width="300" height="306">
+                    <h4>Color-corrected Image</h4>
+                    <p class="text-muted">​​Collections Manager, Glenn A. Black Laboratory of Archaeology <br/>
+                        IDEASc Fellow <br/>
+                        Indiana University, Bloomington</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/46c7566236f94441bdb2a76cc750017a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                        <h4>Photogrammetry Method</h4>
+                    </div>
+
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/>Software: Agisoft PhotoScan</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/5ebaae1dda5b46cb8cccd36f09e2c371/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                        <h4>Structured Light Method</h4>
+                    </div>
+                    <p class="text-muted">​​Hardware: Go!SCAN 50™ by Creaform <br/> Software: 3D Systems (Geomagic® Solutions)</p>
+                </div>
+            </div>
+
+
+
+
+            <!--Model 3-->
+            <h3 class="col-lg-12 text-center">Unknown Animal Effigy</h3>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <img src="img/portfolio/refUnkAnimal.jpg" alt="" width="300" height="306">
+                    <h4>Color-corrected Image</h4>
+                    <p class="text-muted">​​Collections Manager, Glenn A. Black Laboratory of Archaeology <br/>
+                        IDEASc Fellow <br/>
+                        Indiana University, Bloomington</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/cf4cbd30df1c4b4ea9d7929ec656fd2a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                    </div>
+                    <h4>Photogrammetry Method</h4>
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Autodesk Recap</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="team-member">
+                    <div class="sketchfab-embed-wrapper">
+                        <iframe width="auto" height="306"
+                                src="https://sketchfab.com/models/0e33a1867fe74937845d919b75a1d44d/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""></iframe>
+                    </div>
+                    <h4>Structured Light Method</h4>
+                    <p class="text-muted">​​Hardware: Go!SCAN 50™ by Creaform <br/> Software: 3D Systems (Geomagic® Solutions)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Metadata -->
+
+<section id="metadata">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Metadata</h2>
+                
+                
+            </div>
+            <div class="col-lg-12">
+                <p>Metadata, or data about data, is essential to describing, identifying, linking, and even re-creating
+                    digital products. At this time, there is no single, widely-adopted schema standard for capturing and
+                    sharing 3D object metadata. Many projects develop their own in-house standards depending on the type
+                    of objects and modeling processes involved. A few of the more well-known schemas that do capture 3D
+                    object and modeling metadata are CARARE, CRMdig, and ADS (Archaeological Data Service). In-house,
+                    non-standardized metadata can potentially be mapped to these schemas for harvesting and
+                    interoperability with cultural heritage portal sites such as Europeana. However, many of these
+                    larger standards are extensive and exhaustive in terms of the number of fields that can be captured.
+                    For our purposes, we developed a more light-weight schema that overlaps with many of these larger
+                    standards but also focuses more closely on categories of data we felt were more important for our
+                    project.</p>
+                <div class="col-lg-12 text-center">
+                    <p>The main categories of metadata we captured are:</p>
+
+                    <p>Project-level</p>
+                    <p>Data Capture</p>
+                    <p>Camera [EXIF]</p>
+                    <p>Scanning</p>
+                    <p>Processing</p>
+                    <p>3D Model</p>
+                    <p>Physical Model</p>
+                </div>
+                <p class="indent">We currently have 67 fields included under these categories, and we will continuing to
+                    refine and adjust this schema going forward. Full metadata records for the models produced for this
+                    project are available in spreadsheet format. We will also be adding to and adjusting this document
+                    as we continue to clean and process additional 3D models.</p>
+                <div class="col-lg-12 text-center">
+                    <p><a href="https://iu.box.com/s/kq180wekc2cmfzc39a8wxn95q67l32xz">View Metadata Spreadsheet</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Team -->
+<section id="team" class="bg-faded">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/team/teamAnna.jpg" class="mx-auto rounded-circle" alt="">
+                    <h4>Anna VanderJagt</h4>
+                    <p class="text-muted"> MLS/MIS Candidate <br/>
+                        Cyberinfrastructure for Digital Humanities Graduate Assistant<br/> Indiana University,
+                        Bloomington</p>
                     <ul class="list-inline social-buttons">
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li class="list-inline-item"><a href="https://twitter.com/avanderj"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/annavanderjagt"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- METHODS Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                *Compatibility: Having trouble viewing these models? You can check if your browser is compatible on <a href="http://get.webgl.org/">http://get.webgl.org/</a>
-                                <h2 class="col-sm-12">Turtle Effigy</h2>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/7ee441e76122430f8a692e0b6cb4d809/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/7ee441e76122430f8a692e0b6cb4d809?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Turtle Effigy</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Samsung NX300 | Software: Agisoft PhotoScan, Pixologic ZBrush</p>
-                                </div>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/54c2be2471ab4355b9905f321e592678/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/54c2be2471ab4355b9905f321e592678?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Turtle Effigy</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Go!SCAN 50™ by Creaform | Software: 3D Systems (Geomagic® Solutions)</p>
-                                </div>
-                                <h2 class="col-xs-12">Serpent Effigy</h2>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/46c7566236f94441bdb2a76cc750017a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/46c7566236f94441bdb2a76cc750017a?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Serpent</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Samsung NX300 | Software: Agisoft PhotoScan</p>
-                                </div>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/5ebaae1dda5b46cb8cccd36f09e2c371/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/5ebaae1dda5b46cb8cccd36f09e2c371?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Serpent Effigy</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Go!SCAN 50™ by Creaform | Software: 3D Systems (Geomagic® Solutions)</p>
-                                </div>
-                                <h2 class="col-xs-12">Unknown Animal Effigy</h2>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/cf4cbd30df1c4b4ea9d7929ec656fd2a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/cf4cbd30df1c4b4ea9d7929ec656fd2a?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Mississippian-effigy-bottle</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Samsung NX300 | Software: Autodesk Recap</p>
-                                </div>
-                                <div class="col-xs-12 col-md-6 col-lg-6 entry">
-                                    <div class="sketchfab-embed-wrapper"><iframe width="544" height="306" src="https://sketchfab.com/models/0e33a1867fe74937845d919b75a1d44d/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                            <a href="https://sketchfab.com/models/0e33a1867fe74937845d919b75a1d44d?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Unknown Animal Effigy</a>
-                                            by <a href="https://sketchfab.com/avanderj?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Anna</a>
-                                            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                        </p>
-                                    </div>
-                                    <label>Method Used:</label>
-                                    <p>Hardware: Go!SCAN 50™ by Creaform | Software: 3D Systems (Geomagic® Solutions)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <iframe width="640" height="480" src="https://sketchfab.com/playlists/embed?collection=77bed3d2a7fc46faa26abf3376270455" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-                                <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-                                    <a href="https://sketchfab.com/avanderj/collections/gbl-dh-project?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">GBL DH Project</a>
-                                    by <a href="https://sketchfab.com/avanderj?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Jennifer St.Germain & Anna VanderJagt</a>
-                                    on <a href="https://sketchfab.com?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-                                </p>
-                                Additional Project Assets
-                        </div>
-                        <div class="col-lg-12">
-                            <button id="modal-button" type="button" class="btn btn-primary" data-dismiss="modal"> Close
-                                Section
-                            </button>
-                        </div>
-
-                    </div>
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/team/teamJen.jpg" class="mx-auto rounded-circle" alt="">
+                    <h4>Jennifer St.Germain</h4>
+                    <p class="text-muted">​​Collections Manager, Glenn A. Black Laboratory of Archaeology <br/>
+                        IDEASc Fellow <br/>
+                        Indiana University, Bloomington</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="https://twitter.com/msadvtr"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/jennifer-st-germain-20342066"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <div class="row">
+        </div>
     </div>
+</section>
 
-    <!-- MODELS Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="copyright">Copyright &copy; 2017</span>
             </div>
         </div>
     </div>
-
-    <!-- METHODS Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Methods</h2>
-                                <p class="item-intro text-muted">
-                                    There are a number of methods currently in use for capturing 3D data as well as a growing number of software programs and techniques for processing and editing models. Choosing among them involves evaluating data capture and processing time, technician budgeting, equipment and software costs, and necessary access to processing hardware. The size, format, material, location, and portability of objects also need to be considered. 3D projects should start with specific requirements in mind including the intended goals or research questions that may be addressed with the final product. Will the models need to represent fine detail and be rendered as accurately at possible for scientific measurement and analysis? Or are they intended mainly for public exhibition or educational purposes?
-                                    </p>
-                                <p class="item-intro text-muted">For this project, we employed two methods of data capture: photogrammetry and structured light scanning. We will discuss these approaches and highlight the strengths and limitations of both. We will also discuss differences in the rendering and editing software available for these methods.</p>
-
-                                <h3>Photogrammetry</h3>
-                                <p class="indent">Multi-image photogrammetry is a 3D modeling technique that uses multiple 2D images of an object to
-                                    record, measure, and match corresponding points on an object in order to build a 3D representation. Typically a series of images that incorporate overlapping views are taken from high, mid, and low angles of the object in order to record and match as many points on the surface of the object as possible. Two methods of capturing these images are to rotate the object 360 degrees in front of a static camera position (except for changes in camera height and angle) or for the camera to move 360 degrees around the static object. Which method is used will depend on the size and portability of the object, as well as lighting conditions, space constraints, and modeling software preferences.  All of the models used for this project were small enough for us to experiment with both techniques.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/jenphotog.jpg" alt="">
-                                <h5>Moving Camera</h5>
-                                <img class="img-responsive img-centered" src="img/portfolio/annaPhotog.jpg" alt="">
-                                <h5>Static Camera</h5>
-                                <p class="indent">For the purposes of this project we started out using the AutoDesk ReMake processing software. ReMake is offered free for students and educators, has some handy built-in editing features, and can be processed fairly easily and quickly using the cloud-based build option. However, ReMake has some drawbacks in its sensitivity to image background information. Of the two techniques for camera
-                                    position, the moving camera method initially produced cleaner, more accurate meshes. Images taken while the photographer moves around the object will capture changing background information. This allows ReMake to match overlapping points and reconstruct the field of view with more accuracy.</p>
-                                <p class="indent">For our testing of the alternative method, where the object is rotated instead, we used a turntable and professional light-tent.  ReMake and other processing programs seem to be particularly sensitive to the changes, or lack of changes, in the background of an object using this method. To get the best results, a uniform and monochromatic backdrop needs to be used. Turntables should also be covered in the same color material, and both should contrast enough with the color of the object in order for the processing software to distinguish it properly.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/Ethofoamsupport.jpg" alt="">
-                                <h5>Ethofoam Support</h5>
-                                <p class="indent">Another major consideration in our project was the need to capture images of both the top and bottom of the vessels in order to view models from any angle. Although we were able to use pre-made ethofoam supports to invert vessels in a few cases, more asymmetrical artifacts required the use of custom-made supports (made in-house by GBL staff) to capture data on their bases.</p>
-                                <p class="indent">ReMake is limited in that it cannot process or merge both upright and inverted model images into one mesh. Two models, top and bottom, must be created separately in ReMake and then exported into another program, such as Pixologic's ZBrush, to create a merged model. ZBrush is a powerful digital modeling and sculpting program, but can be prohibitively expensive and has a steep learning curve. ZBrush also does not offer a point matching feature which makes it difficult to properly size, rotate, and align two objects into one seamless model.</p>
-                                <h3>ZBrush</h3>
-                                <img class="img-responsive img-centered" src="img/portfolio/Zbrush-Screenshot.jpg" alt="">
-
-                                <p class="indent">Agisoft PhotoScan is another software program that can be used to process images and generate 3D models. This program allows you to import both top and bottom image series and create a single merged model without having to export files into ZBrush or other editing software. PhotoScan provides a tool for selecting matching points along the surface of the model in both series in order to more accurately align the two meshes.</p>
-                                <h3>PhotoScan</h3>
-                                <img class="img-responsive img-centered" src="img/portfolio/PhotoScanScreenshot.JPG" alt="">
-                                <p class="indent">PhotoScan is more expensive to purchase than ReMake, only offering a 30 day free trial of its basic version and no long-term free versions for students or educators. It also requires a lot of processing power and processing time, depending on the quality desired for the final model. We processed a version of the Turtle Effigy Bottle in PhotoScan using a lower quality setting based on the time and resources available to us. The result is adequate for exhibition and educational purposes at this point, but may not be accurate or photorealistic enough for detailed research and analysis.</p>
-
-                                <h3>Structured Light Scanning</h3>
-                                <img class="img-responsive img-centered" src="img/portfolio/jeffRphoto.jpg" alt="">
-                                <h5>Go!Scan 50</h5>
-                                <p>With the assistance of Jeff Rogers from IU's Advanced Visualization Laboratory, we also experimented with structured light scanning.</p>
-                                <p class="indent">This method captures data through the use of a hand-held scanner that projects light patterns across the surface of an object. The software recognizes disruptions in the pattern and uses these to reconstruct exact geometric representations of the object. Color and texture detail are also captured by a camera sensor built into the scanner. A Creaform GoScan 50 scanner was used to model 3 objects from our project, which we used to compare with the versions created with photogrammetry. As in other methods of data capture, the material, lighting, and shape of the object must be taken into consideration. Highly reflective or translucent materials can create confusion about the precise location of an object's surface.</p>
-                                <p class="indent">Objects that are too symmetrical are also a problem, as the scanner may not find enough different points to properly align the image data. Special adhesive point markers can be placed on the turntable or object in these cases to help identify points.</p>
-                                <p class="indent">As in PhotoScan, the Creaform software that comes with the Go!Scan allows the user to clean and edit extraneous data and includes a point matching system for aligning upright and inverted model data.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/GoScanPhoto2.jpg" alt="">
-                                <h5>Alignment Markers</h5>
-                                <p class="indent">The combined GoScan data capture and processing steps provide for a faster and more streamlined workflow for 3D modeling. However, structured light scanners are a far more expensive option than photogrammetry equipment, with the GoScan 50 currently costing around $25,000. We also felt that the results from our photogrammetry versions were far more accurate in terms of surface detail and texture. In the Models section of this site, you can compare the models produced by photogrammetry vs. structured light scanning.</p>
-                                <p class="indent">In the future, we hope to re-process the photogrammetry models in PhotoScan using the higher quality settings, which should improve the detail and photorealistic quality of our final models even more.</p>
-                                <h3>Other considerations:</h3>
-                                <h5>Image format jpeg vs. RAW/Tiff</h5>
-                                <p class="indent">For this project, we captured our images in RAW, but processed all of our photogrammetry models using the jpeg file format. Although we would like to experiment with tiffs converted from RAW in the future, these large files require more powerful processing hardware and longer processing times. A few experts we spoke with (Jeff Rogers & Matt Brennan) also indicated that sometimes higher resolution images can also introduce extra noise that may make it difficult for processing software to stitch images together.</p>
-                                <h5>Lighting and camera settings</h5>
-                                <p class="indent">Often the most time-consuming element of our photogrammetry process was selecting the proper lighting and camera settings for image capture. Because we were shooting indoors, we needed to balance having enough even overhead lighting for reasonable exposure times without creating glare on the surface of the objects. Larger aperture settings are also required to capture sufficient depth of field and insure that all surfaces of the object are in focus. As this also reduces the amount of light available to the camera sensor, we used tripods and cable shutter releases in order to set longer exposure times. </p>
-                                <h5>See the Metadata section for more documentation on our methods and procedures.</h5>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Section</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- METADATA Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>3D Metadata</h2>
-                                <p class="item-intro text-muted">Metadata, or data about data, is essential to describing, identifying, linking, and even re-creating digital
-                                    products. At this time, there is no single, widely-adopted schema standard for capturing and sharing 3D object metadata. Many projects develop their own in-house standards depending on the type of objects and modeling processes involved. A few of the more well-known schemas that do capture 3D object and modeling metadata are CARARE, CRMdig, and ADS (Archaeological Data Service). In-house, non-standardized metadata can potentially be mapped to these schemas for harvesting and interoperability with cultural heritage portal sites such as Europeana. However, many of these larger standards are extensive and exhaustive in terms of the number of fields that can be captured. For our purposes, we developed a more light-weight schema that overlaps with many of these larger standards but also focuses more closely on categories of data we felt were more important for our project.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.jpg" alt="">
-                                <p>The main categories of metadata we captured are:</p>
-
-                                    <p>Project-level</p>
-                                    <p>Data Capture</p>
-                                    <p>Camera [EXIF]</p>
-                                    <p>Scanning</p>
-                                    <p>Processing</p>
-                                    <p>3D Model</p>
-                                    <p>Physical Model</p>
-
-                                <p class="indent">We currently have 67 fields included under these categories, and we will continuing to refine and adjust this schema going forward. Full metadata records for the models produced for this project are available in spreadsheet format. We will also be adding to and adjusting this document as we continue to clean and process additional 3D models.</p>
-                             <p><a href="https://iu.box.com/s/kq180wekc2cmfzc39a8wxn95q67l32xz">View Metadata Spreadsheet</a></p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Section</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</footer>
 
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/tether/tether.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+<!-- Cusotm JavaScript for this theme -->
+<script src="js/agency.min.js"></script>
 
 </body>
 
