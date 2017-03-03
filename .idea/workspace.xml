@@ -199,16 +199,16 @@
       <option name="presentableId" value="Default" />
       <updated>1488389595765</updated>
       <workItem from="1488389596982" duration="26862000" />
-      <workItem from="1488423510837" duration="83000" />
+      <workItem from="1488423510837" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26945000" />
+    <option name="totallyTimeSpent" value="27021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1943" y="0" width="1904" height="2127" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20632368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
