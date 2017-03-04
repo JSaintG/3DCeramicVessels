@@ -37,9 +37,20 @@
         }
     </style>
 
+    <!-- Animation -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="js/animation.js"></script>
+
 </head>
 
 <body id="page-top">
+<!-- Loader Animation -->
+<div class="spinner se-pre-con container">
+    <div class="bounce1 col-lg-12"></div>
+    <div class="bounce2 col-lg-12"></div>
+    <div class="bounce3 col-lg-12"></div>
+</div>
 
 <!-- Navigation -->
 <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
@@ -85,6 +96,8 @@
         </div>
     </div>
 </header>
+
+
 
 <!-- About -->
 <section id="about">
@@ -190,9 +203,8 @@
                     that may be addressed with the final product. Will the models need to represent fine detail and be
                     rendered as accurately at possible for scientific measurement and analysis? Or are they intended
                     mainly for public exhibition or educational purposes?</p>
-                    <p class="item-intro text-muted">For this project, we employed two methods of data capture:
+                    <p class="item-intro text-muted">For this project, we employed a basic overview of two methods of data capture:
                         photogrammetry and structured light scanning. We will discuss these approaches and highlight the
-                        strengths and limitations of both. We will also discuss differences in the rendering and editing
                         software available for these methods.</p></h3>
             </div>
             <div class="col-lg-12 text-center">
@@ -211,9 +223,9 @@
                     both techniques.</p>
             </div>
             <div class="col-lg-12 text-center">
-                <h5>Moving Camera</h5>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/staticCam-anna.jpg" alt="">
                 <h5>Static Camera</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/staticCam-anna.jpg" alt="">
+                <h5>Moving Camera</h5>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/staticObj-jen.jpg" alt="">
             </div>
             <div class="col-lg-12">
@@ -347,7 +359,7 @@
                 <h5>Color</h5>
             </div>
             <div class="col-lg-12">
-                <p>It's important to note that color texture maps of one object can have many different
+                <p>It's important to note that color maps of one object can have many different
                     appearances. While objects for this project were photographed/scanned in the same room and
                     under the same lighting, there are clear variations amongst each method. Color accuracy will
                     ultimately depend on the purpose of a 3D asset. For acientific measurement and analysis or
@@ -382,7 +394,7 @@
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/7ee441e76122430f8a692e0b6cb4d809/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/7ee441e76122430f8a692e0b6cb4d809/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                         <h4>Photogrammetry Method</h4>
@@ -392,16 +404,16 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refTurtle-lg.jpg" alt="" width="300" height="306">
+                    <a href="https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/img/portfolio/refTurtle-lg.jpg" target="_blank"><img src="img/portfolio/refTurtle-lg.jpg" alt="" width="300" height="306"></a>
                     <h4>Color-corrected Image</h4>
-                    <p class="text-muted">Reference image for color</p>
+                    <p class="text-muted">Turtle Effigy reference image</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/54c2be2471ab4355b9905f321e592678/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/54c2be2471ab4355b9905f321e592678/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                         <h4>Structured Light Method</h4>
@@ -419,7 +431,7 @@
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/46c7566236f94441bdb2a76cc750017a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/46c7566236f94441bdb2a76cc750017a/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                         <h4>Photogrammetry Method</h4>
@@ -430,16 +442,16 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refSerpent-lg.jpg" alt="" width="300" height="306">
+                    <a href="https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/img/portfolio/refSerpent-lg.jpg" target="_blank"><img src="img/portfolio/refSerpent-lg.jpg" alt="" width="300" height="306"></a>
                     <h4>Color-corrected Image</h4>
-                    <p class="text-muted">​​Reference image for color</p>
+                    <p class="text-muted">​​Serpent Effigy reference image</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/5ebaae1dda5b46cb8cccd36f09e2c371/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/5ebaae1dda5b46cb8cccd36f09e2c371/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                         <h4>Structured Light Method</h4>
@@ -456,7 +468,7 @@
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/cf4cbd30df1c4b4ea9d7929ec656fd2a/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/cf4cbd30df1c4b4ea9d7929ec656fd2a/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                     </div>
@@ -466,16 +478,16 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refUnkAnimal-lg.jpg" alt="" width="300" height="306">
+                    <a href="https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/img/portfolio/refUnkAnimal-lg.jpg" target="_blank"><img src="img/portfolio/refUnkAnimal-lg.jpg" alt="" width="300" height="306"></a>
                     <h4>Color-corrected Image</h4>
-                    <p class="text-muted">Reference image for color</p>
+                    <p class="text-muted">Unknown Animal reference image</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
                     <div class="sketchfab-embed-wrapper">
                         <iframe width="auto" height="306"
-                                src="https://sketchfab.com/models/0e33a1867fe74937845d919b75a1d44d/embed?autostart=1&amp;camera=0&amp;preload=1&amp;ui_related=0"
+                                src="https://sketchfab.com/models/0e33a1867fe74937845d919b75a1d44d/embed?&amp&amp;preload=1&amp;ui_related=0"
                                 frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                     </div>
