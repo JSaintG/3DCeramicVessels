@@ -1,8 +1,25 @@
-/* Paste this css to your style sheet file or under head tag */
+
 /* This only works with JavaScript,
 if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .spinner {
     position: fixed;
@@ -12,7 +29,7 @@ if it's not present, don't show loader */
 }
 
 .spinner > div {
-    width:2em;
+    width: 2em;
     height: 2em;
     background-color: #292b2c;
 
@@ -25,34 +42,32 @@ if it's not present, don't show loader */
 .spinner .bounce1 {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
-    top: 50%;
-    left: 44%;
-
 }
 
 .spinner .bounce2 {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
-    top: 50%;
-    left: 46%;
 }
-.bounce3 {
-    top: 50%;
-    left: 48%;
-}
+
+
 @-webkit-keyframes sk-bouncedelay {
-    0%, 80%, 100% { -webkit-transform: scale(0) }
-    40% { -webkit-transform: scale(1.0) }
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
 }
 
 @keyframes sk-bouncedelay {
     0%, 80%, 100% {
         -webkit-transform: scale(0);
         transform: scale(0);
-    } 40% {
-          -webkit-transform: scale(1.0);
-          transform: scale(1.0);
-      }
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
 }
 
 .se-pre-con {
@@ -61,6 +76,7 @@ if it's not present, don't show loader */
     z-index: 9999;
     background: #fed136;
 }
+
 .img-fluid {
     margin-bottom: 50px;
 }
@@ -80,7 +96,6 @@ h3 {
 h3.text-center {
     margin-bottom: 2rem;
 }
-
 
 /*!
  * Start Bootstrap - Agency v4.0.0-alpha (http://startbootstrap.com/template-overviews/agency)
