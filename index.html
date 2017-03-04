@@ -92,8 +92,6 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">About</h2>
-
-
                 <h3 class="section-subheading text-muted"><p>This site documents a course project in Digital Humanities
                     to 3D model a selection of cultural heritage objects. We tested a variety of methods and tools for
                     creating and processing these 3D models, and discuss the pros and cons of each in the <a
@@ -122,8 +120,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">Proposal</h2>
-                </br>
-                </br>
             </div>
         </div>
         <div class="row text-center">
@@ -214,148 +210,158 @@
                     preferences. All of the models used for this project were small enough for us to experiment with
                     both techniques.</p>
             </div>
-                <div class="col-lg-12 text-center">
-                    <h5>Moving Camera</h5>
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/staticCam-anna.jpg" alt="">
-                    <h5>Static Camera</h5>
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/staticObj-jen.jpg" alt="">
-                </div>
-                <div class="col-lg-12">
-                    <p>For the purposes of this project we started out using the <a
-                            href="https://remake.autodesk.com/about">AutoDesk ReMake</a>
-                        processing software. ReMake is offered free for students and educators, has some handy built-in
-                        editing features, and can be processed fairly easily and quickly using the cloud-based build
-                        option. However, ReMake has some drawbacks in its sensitivity to image background information.
-                        Of the two techniques for camera position, the moving camera method initially produced cleaner,
-                        more accurate meshes. Images taken while the photographer moves around the object will capture
-                        changing background information. This allows ReMake to match overlapping points and reconstruct
-                        the field of view with more accuracy.</p>
-                    <p>For our testing of the alternative method, where the object is rotated instead, we
-                        used a turntable and professional light-tent. ReMake and other processing programs seem to be
-                        particularly sensitive to the changes, or lack of changes, in the background of an object using
-                        this method. To get the best results, a uniform and monochromatic backdrop needs to be used.
-                        Turntables should also be covered in the same color material, and both should contrast enough
-                        with the color of the object in order for the processing software to distinguish it
-                        properly.</p>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <h5>Ethofoam Support</h5>
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/ethofoamt.jpg" alt="">
-                </div>
-                <div class="col-lg-12">
-                    <p>Another major consideration in our project was the need to capture images of both
-                        the top and bottom of the vessels in order to view models from any angle. Although we were able
-                        to use pre-made ethofoam supports to invert vessels in a few cases, more asymmetrical artifacts
-                        required the use of custom-made supports (made by GBL staff) to capture data on their
-                        bases.</p>
-                    <p>ReMake is limited in that it cannot process or merge both upright and inverted
-                        model images into one mesh. Two models, top and bottom, must be created separately in ReMake and
-                        then exported into another program, such as <a href="http://pixologic.com/">Pixologic's ZBrush</a>, to create a merged model. ZBrush is a powerful digital modeling and sculpting program, but can be prohibitively expensive and has a steep learning curve. ZBrush also does not offer a point matching feature which makes it
-                        difficult to properly size, rotate, and align two objects into one seamless model.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h5>ZBrush</h5>
-                        <img class="img-fluid d-block mx-auto" src="img/portfolio/zBrush.jpg" alt="">
-                    </div>
-            <div class="col-lg-12">
-                    <p><a href="http://www.agisoft.com/">Agisoft PhotoScan</a>is another software program that can be
-                        used to process images
-                        and generate 3D models. This program allows you to import both top and bottom image series and
-                        create a single merged model without having to export files into ZBrush or other editing
-                        software. PhotoScan provides a tool for selecting matching points along the surface of the model
-                        in both series in order to more accurately align the two meshes.</p>
+            <div class="col-lg-12 text-center">
+                <h5>Moving Camera</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/staticCam-anna.jpg" alt="">
+                <h5>Static Camera</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/staticObj-jen.jpg" alt="">
             </div>
-                    <div class="col-lg-12 text-center">
-                        <h5>PhotoScan</h5>
-                        <img class="img-fluid d-block mx-auto" src="img/portfolio/photoScan.jpg" alt="">
-                    </div>
-                    <div class="col-lg-12">
-                        <p>PhotoScan is more expensive to purchase than ReMake, only offering a 30 day
-                            free trial of its basic version and no long-term free versions for students or educators. It
-                            also requires a lot of processing power and processing time, depending on the quality
-                            desired for the final model. We processed a version of the Turtle Effigy in PhotoScan
-                            using a lower quality setting based on the time and resources available to us. The result is
-                            adequate for exhibition and educational purposes at this point, but may not be accurate or
-                            photorealistic enough for detailed research and analysis.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h3>Structured Light Scanning</h3>
-                    </div>
-                    <div class="col-lg-12">
-                        <p>With the assistance of Jeff Rogers from IU's Advanced Visualization Laboratory, we also
-                            experimented with structured light scanning.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h5>Go!SCAN 50</h5>
-                        <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-jeff.jpg" alt="">
-                    </div>
-                    <div class="col-lg-12">
-                        <p>This method captures data through the use of a hand-held scanner that projects light across
-                            the surface of an object. The software recognizes disruptions in the pattern and uses these
-                            to reconstruct geometric representations of the object. Color and texture detail are also
-                            captured by a camera sensor built into the scanner. A Creaform Go!SCAN 50 scanner was used
-                            to model 3 objects from our project, which we used to compare with the versions created with
-                            photogrammetry. As in other methods of data capture, the material, lighting, and shape of
-                            the object must be taken into consideration. Highly reflective or translucent materials can
-                            create confusion about the precise location of an object's surface.</p>
-                        <p>Objects that are too symmetrical are also a problem, as the scanner may not find enough
-                            different points to properly align the image data. Special adhesive point markers can be
-                            placed on the turntable or object in these cases to help identify points.</p>
-                        <p>As in PhotoScan, the Creaform software that comes with the Go!SCAN allows the user to clean
-                            and edit extraneous data and includes a point matching system for aligning upright and
-                            inverted model data.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h5>Alignment Markers</h5>
-                        <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-dots.jpg" alt="">
-                    </div>
-                    <p>The combined Go!SCAN data capture and processing steps provide for a faster and
-                        more streamlined workflow for 3D modeling. However, structured light scanners are a far more
-                        expensive option than photogrammetry equipment, with the Go!SCAN 50 currently costing around
-                        $25,000. We also felt that the results from our photogrammetry versions were far more accurate
-                        in terms of surface detail and texture. In the <a href="#models">Models</a> section of this
-                        site, you can reference a color-corrected image of the effigy vessel, representing the vessel's
-                        true color, along side the models produced by photogrammetry and structured light scanning. </p>
-                    <div class="col-lg-12 text-center">
-                        <h3>Other considerations:</h3>
+            <div class="col-lg-12">
+                <p>For the purposes of this project we started out using the <a
+                        href="https://remake.autodesk.com/about">AutoDesk ReMake</a>
+                    processing software. ReMake is offered free for students and educators, has some handy built-in
+                    editing features, and can be processed fairly easily and quickly using the cloud-based build
+                    option. However, ReMake has some drawbacks in its sensitivity to image background information.
+                    Of the two techniques for camera position, the moving camera method initially produced cleaner,
+                    more accurate meshes. Images taken while the photographer moves around the object will capture
+                    changing background information. This allows ReMake to match overlapping points and reconstruct
+                    the field of view with more accuracy.</p>
+                <p>For our testing of the alternative method, where the object is rotated instead, we
+                    used a turntable and professional light-tent. ReMake and other processing programs seem to be
+                    particularly sensitive to the changes, or lack of changes, in the background of an object using
+                    this method. To get the best results, a uniform and monochromatic backdrop needs to be used.
+                    Turntables should also be covered in the same color material, and both should contrast enough
+                    with the color of the object in order for the processing software to distinguish it
+                    properly.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>Ethofoam Support</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/ethofoamt.jpg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <p>Another major consideration in our project was the need to capture images of both
+                    the top and bottom of the vessels in order to view models from any angle. Although we were able
+                    to use pre-made ethofoam supports to invert vessels in a few cases, more asymmetrical artifacts
+                    required the use of custom-made supports (made by GBL staff) to capture data on their
+                    bases.</p>
+                <p>ReMake is limited in that it cannot process or merge both upright and inverted
+                    model images into one mesh. Two models, top and bottom, must be created separately in ReMake and
+                    then exported into another program, such as <a href="http://pixologic.com/">Pixologic's ZBrush</a>,
+                    to create a merged model. ZBrush is a powerful digital modeling and sculpting program, but can be
+                    prohibitively expensive and has a steep learning curve. ZBrush also does not offer a point matching
+                    feature which makes it
+                    difficult to properly size, rotate, and align two objects into one seamless model.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>ZBrush</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/zBrush.jpg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <p><a href="http://www.agisoft.com/">Agisoft PhotoScan</a>is another software program that can be
+                    used to process images
+                    and generate 3D models. This program allows you to import both top and bottom image series and
+                    create a single merged model without having to export files into ZBrush or other editing
+                    software. PhotoScan provides a tool for selecting matching points along the surface of the model
+                    in both series in order to more accurately align the two meshes.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>PhotoScan</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/photoScan.jpg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <p>PhotoScan is more expensive to purchase than ReMake, only offering a 30 day
+                    free trial of its basic version and no long-term free versions for students or educators. It
+                    also requires a lot of processing power and processing time, depending on the quality
+                    desired for the final model. We processed a version of the Turtle Effigy in PhotoScan
+                    using a lower quality setting based on the time and resources available to us. The result is
+                    adequate for exhibition and educational purposes at this point, but may not be accurate or
+                    photorealistic enough for detailed research and analysis.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h3>Structured Light Scanning</h3>
+            </div>
+            <div class="col-lg-12">
+                <p>With the assistance of Jeff Rogers from IU's Advanced Visualization Laboratory, we also
+                    experimented with structured light scanning.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>Go!SCAN 50</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-jeff.jpg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <p>This method captures data through the use of a hand-held scanner that projects light across
+                    the surface of an object. The software recognizes disruptions in the pattern and uses these
+                    to reconstruct geometric representations of the object. Color and texture detail are also
+                    captured by a camera sensor built into the scanner. A Creaform Go!SCAN 50 scanner was used
+                    to model 3 objects from our project, which we used to compare with the versions created with
+                    photogrammetry. As in other methods of data capture, the material, lighting, and shape of
+                    the object must be taken into consideration. Highly reflective or translucent materials can
+                    create confusion about the precise location of an object's surface.</p>
+                <p>Objects that are too symmetrical are also a problem, as the scanner may not find enough
+                    different points to properly align the image data. Special adhesive point markers can be
+                    placed on the turntable or object in these cases to help identify points.</p>
+                <p>As in PhotoScan, the Creaform software that comes with the Go!SCAN allows the user to clean
+                    and edit extraneous data and includes a point matching system for aligning upright and
+                    inverted model data.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>Alignment Markers</h5>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/goScanPhoto-dots.jpg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <p>The combined Go!SCAN data capture and processing steps provide for a faster and
+                    more streamlined workflow for 3D modeling. However, structured light scanners are a far more
+                    expensive option than photogrammetry equipment, with the Go!SCAN 50 currently costing around
+                    $25,000. We also felt that the results from our photogrammetry versions were far more accurate
+                    in terms of surface detail and texture. In the <a href="#models">Models</a> section of this
+                    site, you can reference a color-corrected image of the effigy vessel, representing the vessel's
+                    true color, along side the models produced by photogrammetry and structured light scanning.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h3>Other considerations:</h3>
 
 
-                        <h5>Image format jpeg vs. RAW/Tiff</h5>
-                    </div>
-                    <p>For this project, we captured our images in RAW, but processed all of our
-                        photogrammetry models using the jpeg file format. Although we would like to experiment with
-                        tiffs converted from RAW in the future, these large files require more powerful processing
-                        hardware and longer processing times. A few experts we spoke with (Jeff Rogers & Matt Brennan)
-                        also indicated that sometimes higher resolution images can also introduce extra noise that may
-                        make it difficult for processing software to stitch images together.</p>
-                    <div class="col-lg-12 text-center">
-                        <h5>Lighting and camera settings</h5>
-                    </div>
-                    <p>Often the most time-consuming element of our photogrammetry process was selecting
-                        the proper lighting and camera settings for image capture. Because we were shooting indoors, we
-                        needed to balance having enough even overhead lighting for reasonable exposure times without
-                        creating glare on the surface of the objects. Larger aperture settings are also required to
-                        capture sufficient depth of field and insure that all surfaces of the object are in focus. As
-                        this also reduces the amount of light available to the camera sensor, we used tripods and cable
-                        shutter releases in order to set longer exposure times. </p>
-                    <div class="col-lg-12 text-center">
-                        <div class="col-lg-12 text-center">
-                            <h5>Color</h5>
-                        </div>
-                        <p>It's important to note that color texture maps of one object can have many different
-                            appearances. While objects for this project were photographed/scanned in the same room and
-                            under the same lighting, there are clear variations amongst each method. Color accuracy will
-                            ultimately depend on the purpose of a 3D asset. For acientific measurement and analysis or
-                            archival purposes, objects should always be photographed with a color chart to correct for
-                            white balance in post-processing.</p>
-                        <div class="col-lg-12 text-center">
-                            <h5>See the <a href="#metadata">Metadata</a> section for more documentation on our methods
-                                and procedures.</h5>
-                        </div>
-                    </div>
-                </div>
+                <h5>Image format jpeg vs. RAW/Tiff</h5>
+            </div>
+            <div class="col-lg-12">
+            <p>For this project, we captured our images in RAW, but processed all of our
+                photogrammetry models using the jpeg file format. Although we would like to experiment with
+                tiffs converted from RAW in the future, these large files require more powerful processing
+                hardware and longer processing times. A few experts we spoke with (Jeff Rogers & Matt Brennan)
+                also indicated that sometimes higher resolution images can also introduce extra noise that may
+                make it difficult for processing software to stitch images together.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>Lighting and camera settings</h5>
+            </div>
+            <div class="col-lg-12">
+            <p>Often the most time-consuming element of our photogrammetry process was selecting
+                the proper lighting and camera settings for image capture. Because we were shooting indoors, we
+                needed to balance having enough even overhead lighting for reasonable exposure times without
+                creating glare on the surface of the objects. Larger aperture settings are also required to
+                capture sufficient depth of field and insure that all surfaces of the object are in focus. As
+                this also reduces the amount of light available to the camera sensor, we used tripods and cable
+                shutter releases in order to set longer exposure times. </p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>Color</h5>
+            </div>
+            <div class="col-lg-12">
+                <p>It's important to note that color texture maps of one object can have many different
+                    appearances. While objects for this project were photographed/scanned in the same room and
+                    under the same lighting, there are clear variations amongst each method. Color accuracy will
+                    ultimately depend on the purpose of a 3D asset. For acientific measurement and analysis or
+                    archival purposes, objects should always be photographed with a color chart to correct for
+                    white balance in post-processing.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h5>See the <a href="#metadata">Metadata</a> section for more documentation on our methods
+                        and procedures.</h5>
+            </div>
             </div>
         </div>
+    </div>
+    </div>
 </section>
 
 <!-- Models -->
@@ -381,13 +387,12 @@
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                         <h4>Photogrammetry Method</h4>
                     </div>
-                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Agisoft PhotoScan, Pixologic ZBrush
-                    </p>
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Agisoft PhotoScan, Pixologic ZBrush </br>Capture: Moving camera method</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refTurtle.jpg" alt="" width="300" height="306">
+                    <img src="img/portfolio/refTurtle-lg.jpg" alt="" width="300" height="306">
                     <h4>Color-corrected Image</h4>
                     <p class="text-muted">Reference image for color</p>
                 </div>
@@ -420,12 +425,12 @@
                         <h4>Photogrammetry Method</h4>
                     </div>
 
-                    <p class="text-muted">​​Hardware: Samsung NX300 <br/>Software: Agisoft PhotoScan</p>
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/>Software: Agisoft PhotoScan<br/>Capture: Moving camera method</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refSerpent.jpg" alt="" width="300" height="306">
+                    <img src="img/portfolio/refSerpent-lg.jpg" alt="" width="300" height="306">
                     <h4>Color-corrected Image</h4>
                     <p class="text-muted">​​Reference image for color</p>
                 </div>
@@ -456,12 +461,12 @@
                                 webkitallowfullscreen="true" onmousewheel=""></iframe>
                     </div>
                     <h4>Photogrammetry Method</h4>
-                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Autodesk Recap</p>
+                    <p class="text-muted">​​Hardware: Samsung NX300 <br/> Software: Autodesk Recap<br/>Capture: Moving camera method</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="team-member">
-                    <img src="img/portfolio/refUnkAnimal.jpg" alt="" width="300" height="306">
+                    <img src="img/portfolio/refUnkAnimal-lg.jpg" alt="" width="300" height="306">
                     <h4>Color-corrected Image</h4>
                     <p class="text-muted">Reference image for color</p>
                 </div>
@@ -481,8 +486,8 @@
             </div>
             <div class="col-lg-12 text-center">
                 <h5><a href="https://skfb.ly/XtZo">View more project assets</a></h5>
+            </div>
         </div>
-    </div>
 </section>
 
 
