@@ -73,9 +73,6 @@
                     <a class="nav-link page-scroll" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#proposal">Proposal</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link page-scroll" href="#portfolio">Methods</a>
                 </li>
                 <li class="nav-item">
@@ -105,7 +102,7 @@
 
 
 <!-- About -->
-<section id="about">
+<section id="about" class="bg-faded">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -130,66 +127,61 @@
             </div>
         </div>
     </div>
-</section>
-
-<!-- Proposal -->
-<section id="proposal" class="bg-faded text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="section-heading">Proposal</h2>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Goals</h4>
-                <p class="text-muted">To 3D model a small collection of intact ceramic effigy vessels from the Glenn A.
-                    Black Laboratory of Archaeology.
-                    To test different modeling techniques, software, and 3D viewers. We will be using photogrammetry as
-                    our main data capture method, but we will also explore and compare structured light scanning
-                    techniques.</p>
-            </div>
-            <div class="col-md-3">
+                    <h4 class="service-heading">Goals</h4>
+                    <p class="text-muted">To 3D model a small collection of intact ceramic effigy vessels from the Glenn A.
+                        Black Laboratory of Archaeology.
+                        To test different modeling techniques, software, and 3D viewers. We will be using photogrammetry as
+                        our main data capture method, but we will also explore and compare structured light scanning
+                        techniques.</p>
+                </div>
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Resources</h4>
-                <p class="text-muted">All of the physical models will be ceramic effigy vessels housed at the Glenn A.
-                    Black Laboratory of Archaeology on the IU Bloomington campus. Secondary materials in the form of
-                    catalog cards and database records will be used to create appropriate metadata for the digital
-                    models.</p>
-            </div>
-            <div class="col-md-3">
+                    <h4 class="service-heading">Resources</h4>
+                    <p class="text-muted">All of the physical models will be ceramic effigy vessels housed at the Glenn A.
+                        Black Laboratory of Archaeology on the IU Bloomington campus. Secondary materials in the form of
+                        catalog cards and database records will be used to create appropriate metadata for the digital
+                        models.</p>
+                </div>
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Consultants</h4>
-                <p class="text-muted">Model editing – Matt Brennan, SOIC Virtual Heritage program
-                    Photogrammetry methods assistance – Gary Motz, Manager of the IU Vertebrate Paleontology Collection
-                    3-D scanning techniques - Jeff Rogers, Principal Project Analyst & Team Lead of the Advanced
-                    Visualization Lab
-                    Ethical considerations – April Sievert, Director of the Glenn A. Black Lab</p>
-            </div>
-            <div class="col-md-3">
+                    <h4 class="service-heading">Consultants</h4>
+                    <p class="text-muted">Model editing – Matt Brennan, SOIC Virtual Heritage program
+                        Photogrammetry methods assistance – Gary Motz, Manager of the IU Vertebrate Paleontology Collection
+                        3-D scanning techniques - Jeff Rogers, Principal Project Analyst & Team Lead of the Advanced
+                        Visualization Lab
+                        Ethical considerations – April Sievert, Director of the Glenn A. Black Lab</p>
+                </div>
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Tools</h4>
-                <p class="text-muted">We will use DSLR and mirrorless cameras, tripods, Autodesk Remake, ReCap, Agisoft
-                    PhotoScan, and Pixologic ZBrush for rendering and editing 3D models.
-                    We will use the AVL Go!Scan to create one or more additional models to compare this method in terms
-                    of processing requirements and results.</p>
+                    <h4 class="service-heading">Tools</h4>
+                    <p class="text-muted">We will use DSLR and mirrorless cameras, tripods, Autodesk Remake, ReCap, Agisoft
+                        PhotoScan, and Pixologic ZBrush for rendering and editing 3D models.
+                        We will use the AVL Go!Scan to create one or more additional models to compare this method in terms
+                        of processing requirements and results.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </section>
+
+<!-- Proposal -->
+
 
 
 <!-- Methods -->
@@ -530,9 +522,9 @@
                     digital products. At this time, there is no single, widely-adopted schema standard for capturing and
                     sharing 3D object metadata. Many projects develop their own in-house standards depending on the type
                     of objects and modeling processes involved. A few of the more well-known schemas that do capture 3D
-                    object and modeling metadata are CARARE, CRMdig, and ADS (Archaeological Data Service). In-house,
+                    object and modeling metadata are <a href="http://pro.carare.eu/doku.php?id=support:metadata-schema">CARARE</a>, <a href="http://www.cidoc-crm.org/crmdig/">CRMdig</a>, and <a href="http://archaeologydataservice.ac.uk/">ADS</a> (Archaeological Data Service). In-house,
                     non-standardized metadata can potentially be mapped to these schemas for harvesting and
-                    interoperability with cultural heritage portal sites such as Europeana. However, many of these
+                    interoperability with cultural heritage portal sites such as <a href="http://www.europeana.eu/portal/en">Europeana</a>. However, many of these
                     larger standards are extensive and exhaustive in terms of the number of fields that can be captured.
                     For our purposes, we developed a more light-weight schema that overlaps with many of these larger
                     standards but also focuses more closely on categories of data we felt were more important for our
