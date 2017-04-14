@@ -1,14 +1,17 @@
-##View [Project Site](https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/)
+# About this repo
+This repository represents a final group project for the Digital Humaities course (Z657) in the fall 2016 semester at Indiana University Bloomington taught by [Tassie Gniady](https://github.com/tassieg), Digital Humanities Cyberinfrastructure Manager.
 
-# Group Members 
+View [Project Site](https://avanderj.github.io/3d-modeling-and-pre-columbian-ceramic-vessels/)
+
+## Group Members 
 * Jennifer St.Germain
-* Anna VanderJagt
+* [Anna VanderJagt](https://github.com/avanderj)
 
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
-
-## Creator
+## Theme Creator
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+[Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 * https://twitter.com/davidmillerskt
 * https://github.com/davidtmiller
@@ -17,4 +20,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
